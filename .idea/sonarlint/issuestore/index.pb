@@ -1,0 +1,5 @@
+
+X
+(actividad_final_6_trimestre_1834751/.env,a\2\a216bad4514957e3966902b794af20a50c4347d2
+l
+<actividad_final_6_trimestre_1834751/database/database.sqlite,2\7\27ac07373a33dd54b438a503c1fd570fafc958e5
