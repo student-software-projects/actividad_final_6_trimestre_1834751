@@ -13,8 +13,7 @@ class PersonaController extends Controller
     }
 
     public function crear(){
-        $persona = Persona::all();
-        return view('personas.crear', compact('persona'));
+        return view('personas.crear');
     }
 
     public function guardar(Request $request){

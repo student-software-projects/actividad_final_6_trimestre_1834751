@@ -2,38 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bdb4d69-9b88-49f8-9ee4-fb23a26955a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/PersonaController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/VehiculoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Models/Persona.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Models/Vehiculo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/migrations/2020_12_04_144048_create_personas_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/migrations/2020_12_04_144118_create_vehiculos_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/public/contenido/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/public/contenido/imagenes/img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/public/contenido/imagenes/img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/public/contenido/imagenes/img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/public/contenido/imagenes/img-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/public/plugins/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/public/plugins/jquery-3.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/public/plugins/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/home/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/crear.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/editar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/crear.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/detalle.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/editar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prueba_tecnica_acme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prueba_tecnica_acme.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/PersonaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/PersonaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/VehiculoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/VehiculoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/database.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/detalle.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/editar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/crear.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/crear.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/detalle.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/editar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,6 +156,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -199,8 +180,17 @@
       <workItem from="1607042845754" duration="1714000" />
       <workItem from="1607044835248" duration="96000" />
       <workItem from="1607044945247" duration="1023000" />
-      <workItem from="1607091263038" duration="25206000" />
+      <workItem from="1607091263038" duration="25550000" />
+      <workItem from="1607178417412" duration="6635000" />
     </task>
+    <task id="LOCAL-00001" summary="Creacion de tablas, modelos, vistas, y crud conductores/propietarios.">
+      <created>1607121144174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607121144174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,5 +210,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Creacion de tablas, modelos, vistas, y crud conductores/propietarios." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion de tablas, modelos, vistas, y crud conductores/propietarios." />
   </component>
 </project>

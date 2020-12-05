@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('titulo', 'Crear')
+@section('titulo', 'Detalle')
 
 @section('contenido')
     <div class="row" style="justify-content: center">
@@ -9,14 +9,8 @@
                 <h5 class="card-title">Detalle</h5>
                 <hr>
                 <dl>
-                    <dt>Primer Nombre:</dt>
-                    <dd>{{$persona->primer_nombre}}</dd>
-                    <br>
-                    <dt>Segundo Nombre:</dt>
-                    <dd>{{$persona->segundo_nombre}}</dd>
-                    <br>
-                    <dt>Apellidos:</dt>
-                    <dd>{{$persona->apellidos}}</dd>
+                    <dt>Nombres y Apellidos:</dt>
+                    <dd>{{$persona->primer_nombre}} {{$persona->segundo_nombre}} {{$persona->apellidos}}</dd>
                     <br>
                     <dt>Numero de cedula:</dt>
                     <dd>{{$persona->numero_cedula}}</dd>
@@ -31,11 +25,11 @@
                     <dd>{{$persona->ciudad}}</dd>
                     <br>
                     <dt>opciones:</dt>
-                    <dd style="float: right;">
+                    <dd class="pt-1">
                         <form action="{{route('persona.eliminar', $persona->id)}}" method="POST">
                             @csrf
                             @method('DELETE')
-                            <a href="{{route('persona.editar', $persona->id)}}" data-toggle="tooltip" data-placement="left" title="Editar" style="margin-right: 40px">
+                            <a href="{{route('persona.editar', $persona->id)}}" data-toggle="tooltip" data-placement="bottom" title="Editar" style="margin-right: 40px">
                                 <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-pen-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" d="M13.498.795l.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
                                 </svg>

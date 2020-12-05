@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('titulo', 'Crear')
+@section('titulo', 'Editar')
 
 @section('contenido')
     <div class="row" style="justify-content: center">
@@ -59,4 +59,7 @@
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById("tipo").selectedIndex = {{$persona->tipo}};
+    </script>
 @endsection

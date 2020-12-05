@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PersonaController;
+use App\Http\Controllers\VehiculoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,13 @@ Route::get('personas/{id}', [PersonaController::class, 'detalle'])->name('person
 Route::delete('personas/{id}', [PersonaController::class, 'eliminar'])->name('persona.eliminar');
 Route::get('personas/editar/{id}', [PersonaController::class, 'editar'])->name('persona.editar');
 Route::put('personas/{id}', [PersonaController::class, 'actualizar'])->name('persona.actualizar');
+
+/*Vista crud Vehiculos*/
+Route::get('vehiculos', [VehiculoController::class, 'index'])->name('vehiculo.index');
+Route::get('vehiculos/crear',[VehiculoController::class,'crear'])->name('vehiculo.crear');
+Route::post('vehiculos', [VehiculoController::class, 'guardar'])->name('vehiculo.guardar');
+Route::get('vehiculos/{id}', [VehiculoController::class, 'detalle'])->name('vehiculo.detalle');
+
+Route::delete('vehiculos/{id}', [VehiculoController::class, 'eliminar'])->name('vehiculo.eliminar');
+Route::get('vehiculos/editar/{id}', [VehiculoController::class, 'editar'])->name('vehiculo.editar');
+Route::put('vehiculos/{id}', [VehiculoController::class, 'actualizar'])->name('vehiculo.actualizar');
