@@ -4,7 +4,7 @@
 
 @section('contenido')
     <div class="row" style="justify-content: center">
-        <div class="card text-white bg-dark p-4" style="width:700px">
+        <div class="card text-white bg-transparent p-4" style="width:700px; border:solid;">
             <div class="card-body">
                 <h5 class="card-title">Detalle</h5>
                 <hr>

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PersonaController;
 use App\Http\Controllers\VehiculoController;
+use App\Http\Controllers\InformeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,11 @@ use App\Http\Controllers\VehiculoController;
 
 /*Vista principal*/
 Route::view('/', 'home.home')->name('home');
+
+
+/*Vista informes*/
+Route::get('informes', [InformeController::class, 'index'])->name('informes');
+Route::get('informes/buscar', [InformeController::class, 'buscar'])->name('buscar');
 
 
 /*Vista crud Conductores/Propietarios*/

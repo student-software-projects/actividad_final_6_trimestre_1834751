@@ -17,7 +17,9 @@
             padding-top: 10px;
             padding-bottom: 20px;
             font-family: 'Piazzolla';
-            background-color: black;
+            background: url({{asset('contenido/imagenes/img-4.jpg')}});
+            background-attachment: fixed;
+            background-size: cover;
         }
     </style>
 
@@ -37,10 +39,13 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{route('persona.index')}}">[Propietarios/Conductores]</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{route('informes')}}">[Informes]</a>
+            </li>
         </ul>
     </div>
 </nav>
-<div class="container-fluid overflow-auto" style="padding-top: 40px; padding-bottom: 20px">
+<div class="container-fluid overflow-auto" style="padding-top: 40px; padding-bottom: 20px;">
     @yield('contenido')
 </div>
 <footer style="text-align: center; margin-top: 20px; color: white;">

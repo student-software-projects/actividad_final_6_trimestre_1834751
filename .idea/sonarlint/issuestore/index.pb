@@ -51,3 +51,7 @@ b
 2actividad_final_6_trimestre_1834751/routes/web.php,1\1\117bd777ec459df0acce147c4e05aa0245a03d52
 ~
 Nactividad_final_6_trimestre_1834751/resources/views/personas/detalle.blade.php,6\d\6d09d1caf25e4fd73242643ad784df88eaff6441
+|
+Lactividad_final_6_trimestre_1834751/resources/views/informes/index.blade.php,8\3\8377dc62a6780999f176238b083abf8d2020d4dc
+~
+Nactividad_final_6_trimestre_1834751/app/Http/Controllers/InformeController.php,9\c\9c1f1ac530b16c0700e0c45f347132a58fa5ea9c

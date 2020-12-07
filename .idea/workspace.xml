@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bdb4d69-9b88-49f8-9ee4-fb23a26955a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/InformeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/informes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/117bd777ec459df0acce147c4e05aa0245a03d52" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/117bd777ec459df0acce147c4e05aa0245a03d52" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35c6c33235fec2e94d4406ab07ea00fe412cd302" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35c6c33235fec2e94d4406ab07ea00fe412cd302" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b27264d930c72c051a3f8bb9be8aa6e01990df8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b27264d930c72c051a3f8bb9be8aa6e01990df8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77fbdbec1721dfee15cba793ed1a54620cdceb1b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77fbdbec1721dfee15cba793ed1a54620cdceb1b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdc609be9e400eccaa0b7670ffa84d7914f6abe2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdc609be9e400eccaa0b7670ffa84d7914f6abe2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/PersonaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/PersonaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/VehiculoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/VehiculoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/database.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/home/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/home/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/crear.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/crear.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/detalle.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/editar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/crear.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/crear.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/detalle.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/detalle.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/editar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/editar.blade.php" afterDir="false" />
@@ -181,7 +189,11 @@
       <workItem from="1607044835248" duration="96000" />
       <workItem from="1607044945247" duration="1023000" />
       <workItem from="1607091263038" duration="25550000" />
-      <workItem from="1607178417412" duration="6635000" />
+      <workItem from="1607178417412" duration="7906000" />
+      <workItem from="1607189361457" duration="154000" />
+      <workItem from="1607196060397" duration="2532000" />
+      <workItem from="1607208686234" duration="4020000" />
+      <workItem from="1607351743384" duration="17752000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion de tablas, modelos, vistas, y crud conductores/propietarios.">
       <created>1607121144174</created>

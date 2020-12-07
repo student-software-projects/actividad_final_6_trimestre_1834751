@@ -4,7 +4,7 @@
 
 @section('contenido')
     <div class="row" style="justify-content: center">
-        <div class="card text-white bg-dark p-4" style="width:600px">
+        <div class="card bg-transparent text-white p-4" style="width:600px; border:solid;">
             <a class="btn btn-warning" style="width:200px" href="{{route('vehiculo.crear')}}">Agregar nuevo registro</a>
             <div class="card-body">
                 <h5 class="card-title">Vehiculos</h5>
