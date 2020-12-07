@@ -4,7 +4,7 @@
 
 @section('contenido')
     <div class="row" style="justify-content: center">
-        <div class="card text-white bg-transparent p-4" style="width:700px; border:solid;">
+        <div class="card text-white p-4" style="width:700px; border:solid; opacity: 0.7; background: black;">
             <div class="card-body">
                 <h5 class="card-title">Detalle</h5>
                 <hr>
@@ -22,7 +22,7 @@
                     <dd>{{$vehiculo->tipo_vehiculo}}</dd>
                     <br>
                     <dt>Conductor ID:</dt>
-                    <dd>{{$vehiculo->conductor_id->primer_nombre}}</dd>
+                    <dd>{{$vehiculo->conductor_id}}</dd>
                     <br>
                     <dt>Propietario ID:</dt>
                     <dd>{{$vehiculo->propietario_id}}</dd>

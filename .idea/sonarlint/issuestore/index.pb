@@ -55,3 +55,5 @@ Nactividad_final_6_trimestre_1834751/resources/views/personas/detalle.blade.php
 Lactividad_final_6_trimestre_1834751/resources/views/informes/index.blade.php,8\3\8377dc62a6780999f176238b083abf8d2020d4dc
 ~
 Nactividad_final_6_trimestre_1834751/app/Http/Controllers/InformeController.php,9\c\9c1f1ac530b16c0700e0c45f347132a58fa5ea9c
+b
+2actividad_final_6_trimestre_1834751/config/app.php,2\b\2bcecd210552a929c70ec0a6e4bed4f47f7f9312

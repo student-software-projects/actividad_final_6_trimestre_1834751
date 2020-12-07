@@ -11,8 +11,17 @@ class InformeController extends Controller
 {
     public function index(Request $request){
         $buscar = trim($request->get('buscar'));
-        $vehiculos = Vehiculo::select('*')->where('placa', '=', $buscar)->get();
-        return view('informes.index', compact('vehiculos', 'buscar'));
+        $conductor = Persona::join('vehiculos', 'personas.id', '=', 'vehiculos.conductor_id')
+        ->select('*')
+        ->where('placa', '=', $buscar)
+        ->get()
+        ->first();
+        $propietario = Persona::join('vehiculos', 'personas.id', '=', 'vehiculos.propietario_id')
+            ->select('*')
+            ->where('placa', '=', $buscar)
+            ->get()
+            ->first();
+        return view('informes.index', compact('conductor', 'propietario', 'buscar'));
     }
 
 

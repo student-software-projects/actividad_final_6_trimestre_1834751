@@ -4,7 +4,7 @@
 
 @section('contenido')
     <div class="row" style="justify-content: center">
-        <div class="card text-white bg-transparent p-4" style="width:700px; border:solid;">
+        <div class="card text-white p-4" style="width:700px; border:solid; opacity: 0.7; background: black;">
             <div class="card-body">
                 <h5 class="card-title mb-5">Actualizar</h5>
                 <form action="{{route('persona.actualizar', $persona->id)}}" method="POST">
