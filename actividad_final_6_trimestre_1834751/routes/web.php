@@ -23,7 +23,6 @@ Route::view('/', 'home.home')->name('home');
 
 /*Vista informes*/
 Route::get('informes', [InformeController::class, 'index'])->name('informes');
-Route::get('informes/buscar', [InformeController::class, 'buscar'])->name('buscar');
 
 
 /*Vista crud Conductores/Propietarios*/

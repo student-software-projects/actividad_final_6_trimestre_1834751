@@ -20,7 +20,9 @@ class VehiculoController extends Controller
 
     public function guardar(Request $request){
         $vehiculo = Vehiculo::create($request->all());
-        return redirect()->route('vehiculo.index');
+        return redirect()->route('vehiculo.index')->with([
+            'mensaje' => 'Se ha creado el registro de forma correcta'
+        ]);
     }
 
     public function detalle($id){
@@ -30,7 +32,9 @@ class VehiculoController extends Controller
 
     public function eliminar($id){
         $vehiculo = Vehiculo::find($id)->delete();
-        return redirect()->route('vehiculo.index');
+        return redirect()->route('vehiculo.index')->with([
+            'mensaje' => 'Se ha eliminado el registro de forma correcta'
+        ]);
     }
 
     public function editar($id){

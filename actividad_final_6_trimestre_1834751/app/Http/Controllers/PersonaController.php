@@ -18,7 +18,9 @@ class PersonaController extends Controller
 
     public function guardar(Request $request){
         $persona = Persona::create($request->all());
-        return redirect()->route('persona.index');
+        return redirect()->route('persona.index')->with([
+            'mensaje' => 'Se ha creado el registro de forma correcta'
+        ]);
     }
 
     public function detalle($id){
@@ -28,7 +30,9 @@ class PersonaController extends Controller
 
     public function eliminar($id){
         $persona = Persona::find($id)->delete();
-        return redirect()->route('persona.index');
+        return redirect()->route('persona.index')->with([
+            'mensaje' => 'Se ha eliminado el registro de forma correcta'
+        ]);
     }
 
     public function editar($id){
