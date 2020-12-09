@@ -7,9 +7,15 @@ use App\Models\Persona;
 
 class PersonaController extends Controller
 {
-    public function index(){
-        $personas = Persona::all();
-        return view('personas.index', compact('personas'));
+    public function index(Request $request){
+        $buscar = trim($request->get('buscar'));
+        $personas = Persona::select('*')
+            ->where('primer_nombre', 'LIKE', '%'.$buscar.'%')
+            ->orWhere('segundo_nombre', 'LIKE', '%'.$buscar.'%')
+            ->orWhere('segundo_nombre', 'LIKE', '%'.$buscar.'%')
+            ->orWhere('apellidos', 'LIKE', '%'.$buscar.'%')
+            ->get();
+        return view('personas.index', compact('personas', 'buscar'));
     }
 
     public function crear(){

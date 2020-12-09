@@ -8,9 +8,13 @@ use Illuminate\Http\Request;
 
 class VehiculoController extends Controller
 {
-    public function index(){
-        $vehiculos = Vehiculo::all();
-        return view('vehiculos.index', compact('vehiculos'));
+    public function index(Request $request){
+        $buscar = trim($request->get('buscar'));
+        $vehiculos = Vehiculo::select('*')
+            ->where('placa', 'LIKE', '%'.$buscar.'%')
+            ->orWhere('marca', 'LIKE', '%'.$buscar.'%')
+            ->get();
+        return view('vehiculos.index', compact('vehiculos', 'buscar'));
     }
 
     public function crear(){

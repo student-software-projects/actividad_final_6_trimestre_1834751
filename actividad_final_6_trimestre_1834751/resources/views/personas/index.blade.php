@@ -3,6 +3,18 @@
 @section('titulo', 'Personas')
 
 @section('contenido')
+    <div class="container">
+        <form action="{{route('persona.index')}}" method="GET">
+            <div class="form-group row">
+                <label for="buscar" class="col-sm-1 col-form-label text-white" style="margin-left: 30px">Buscar:</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="buscar" name="buscar" placeholder="conductor y/o propietario" value="{{$buscar}}">
+                </div>
+                <button class="btn btn-primary" type="submit">Buscar</button>
+            </div>
+        </form>
+    </div>
+
     <div class="row" style="justify-content: center">
         <div class="card text-white p-4" style="width:600px; border:solid; opacity: 0.7; background: black;">
             <a class="btn btn-warning" style="width:200px" href="{{route('persona.crear')}}">Agregar nuevo registro</a>

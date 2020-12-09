@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bdb4d69-9b88-49f8-9ee4-fb23a26955a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/117bd777ec459df0acce147c4e05aa0245a03d52" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/117bd777ec459df0acce147c4e05aa0245a03d52" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b27264d930c72c051a3f8bb9be8aa6e01990df8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b27264d930c72c051a3f8bb9be8aa6e01990df8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77fbdbec1721dfee15cba793ed1a54620cdceb1b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/77fbdbec1721dfee15cba793ed1a54620cdceb1b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92ad2ea03a4c35a7a12a076ff52c9b3cc76972e2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92ad2ea03a4c35a7a12a076ff52c9b3cc76972e2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdc609be9e400eccaa0b7670ffa84d7914f6abe2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdc609be9e400eccaa0b7670ffa84d7914f6abe2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/PersonaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/PersonaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/VehiculoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/app/Http/Controllers/VehiculoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/database/database.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/informes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/informes/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/personas/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/resources/views/vehiculos/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/actividad_final_6_trimestre_1834751/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +179,8 @@
       <workItem from="1607196060397" duration="2532000" />
       <workItem from="1607208686234" duration="4020000" />
       <workItem from="1607351743384" duration="22794000" />
-      <workItem from="1607437772433" duration="3070000" />
+      <workItem from="1607437772433" duration="3325000" />
+      <workItem from="1607454751105" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion de tablas, modelos, vistas, y crud conductores/propietarios.">
       <created>1607121144174</created>
